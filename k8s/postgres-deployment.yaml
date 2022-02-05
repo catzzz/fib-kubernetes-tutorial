@@ -23,5 +23,5 @@ spec:
             - containerPort: 5432
           volumeMounts:
             - name: postgres-storage
-              mouthPath: /var/lib/postgressql/data
+              mountPath: /var/lib/postgressql/data
               subPath: postgres
